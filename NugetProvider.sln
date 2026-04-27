@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonExistentProject", "DoesNotExist\NonExistentProject.csproj", "{AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPrivateLib", "TestPrivateLib\TestPrivateLib.csproj", "{AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrokenProject", "BrokenProject\BrokenProject.csproj", "{11111111-2222-3333-4444-555555555555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,5 +17,9 @@ Global
 		{AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11111111-2222-3333-4444-555555555555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11111111-2222-3333-4444-555555555555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11111111-2222-3333-4444-555555555555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11111111-2222-3333-4444-555555555555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
